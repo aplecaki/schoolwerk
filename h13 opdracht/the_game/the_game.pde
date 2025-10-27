@@ -53,7 +53,7 @@ void draw() {
   if (distance < collisionThreshold) {
     score++;
     orb1.y = 10;
-    orb1.x = random(width - 340, width + 10);
+    orb1.x = random(10, width - 10);
   }
   // balk movement
   if (keyPressed) {
