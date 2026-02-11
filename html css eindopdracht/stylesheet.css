@@ -1,0 +1,65 @@
+header {
+background-color: #000000;
+}
+nav {
+    background-color: #2f808b;
+    overflow: hidden;
+    text-align: center;
+}
+.h{
+    color: #ffffff;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    margin: auto;
+}
+body {
+    
+    background-image: url('wall of feef.png');
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    p .h {
+        border: 1px solid #000000;
+        border-radius: 3px;
+        padding: 10px;
+    }
+}
+section {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: #878383;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-color: #000000;
+    max-height: 20vh;
+    min-height: auto; 
+}
+footer{
+    background-color: #2f808b;
+    overflow: hidden;
+    text-align: center;
+}
+
+section p {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 3px;
+    max-width: 40%;
+    margin-right: 0;
+    
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
