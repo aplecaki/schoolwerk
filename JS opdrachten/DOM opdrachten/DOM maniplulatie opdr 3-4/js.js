@@ -28,8 +28,6 @@ function countNumber(n) {
             count++;
         }
     });
-
-    return count === 0 ? 1 : count;
 }
 
 function countNumber2(getallen, numberWeLookFor) {

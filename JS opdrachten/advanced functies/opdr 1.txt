@@ -1,0 +1,4 @@
+de code doet een typeof command, die declareert wat voor soort type object de value is. 
+to celsius is een function en value 1 heeft de value van tocelsius dus een function, daardoor als je console.log(typeof value2) doet
+dan gaat de console de "function" printen.
+
