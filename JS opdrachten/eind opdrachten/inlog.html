@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe - Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button id="loginButton">Login</button>
+   
+</body>
+
+<script>
+    const loginButton = document.getElementById("loginButton");
+    const usernameInput = document.getElementById("username");
+    const passwordInput = document.getElementById("password");
+
+    loginButton.addEventListener("click", function() {
+        const username = usernameInput.value;
+        const password = passwordInput.value;
+
+        
+        if (username === "enrico" && password === "muzo") {
+            alert("Login successful!");
+        } else {
+            alert("Invalid credentials!");
+        }
+    });
+</script>                                        
